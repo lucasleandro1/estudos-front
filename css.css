@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fraunces:opsz@9..144&family=Island+Moments&family=Kanit:wght@600;800&family=Montserrat&family=Open+Sans:ital,wght@1,500&family=Oswald:wght@200;400&family=Roboto&family=Space+Grotesk:wght@400;700&family=Ubuntu:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.inicio{
+    margin: 20%;
+    background-color: white;
+    display: flex;
+    border-radius: 0.5rem;
+    width: 60%;
+    height: 90vh;
+}
+.start{
+    width: 55%;
+}
+.start img{
+    height: 90vh;    
+    width: 100%;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5% 0% 5% 5%;
+    width: 45%;
+}
+.all h1{
+    line-height: 1;
+    padding-bottom: 1rem;
+    color: hsl(212, 21%, 14%);
+    font-size: 3rem;
+    margin-right: 4.5rem;
+}
+.all p{
+    font-family: 'Montserrat';
+    color:hsl(228, 12%, 48%);
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+.all h4{
+    font-family: 'Montserrat';
+    color:hsl(228, 12%, 48%);
+    font-size: 1rem;
+    margin-right: 7.5rem;
+    line-height: 1.5;
+    padding-bottom: 0.5rem;
+}
+.all button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(158, 36%, 37%);
+    padding: 0.9rem;
+    color: white;
+    border:none ;
+    width: 80%;
+    border-radius: 0.6rem;
+    font-size: 1.2rem;
+}
+button img{
+    width: 1.2rem;
+    padding-right: 0.6rem;
+}
+.preço{
+    display: flex;
+    align-items: center;
+    padding: 0.6rem;
+}
+.preço h2{
+    font-family: 'Fraunces';
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+}
+.preço p{
+    font-family: 'Fraunces';
+    font-size: 1rem;
+    font-weight: bold;
+    color:hsl(228, 12%, 48%);
+    padding-left: 2.5rem;
+}
+@media (max-width:970px){
+    .all h1{
+        line-height: 1;
+        padding-bottom: 1rem;
+        color: hsl(212, 21%, 14%);
+        font-size: 2.5rem;
+        margin-right: 4.5rem;
+    }
+    .all h4{
+        font-family: 'Montserrat';
+        color:hsl(228, 12%, 48%);
+        font-size: 0.8rem;
+        margin-right: 7.5rem;
+        line-height: 1.5;
+        padding-bottom: 0.5rem;
+    }
+    .preço p{
+        font-family: 'Fraunces';
+        font-size: 1rem;
+        font-weight: bold;
+        color:hsl(228, 12%, 48%);
+        padding-left: 2rem;
+    }
+}
+@media (max-width:920px){
+    .preço p{
+        font-family: 'Fraunces';
+        font-size: 1rem;
+        font-weight: bold;
+        color:hsl(228, 12%, 48%);
+        padding-left: 1.5rem;
+    }
+}@media(max-width:829px){
+    .preço{
+        display: flex;
+        flex-direction: column;
+        align-items:  flex-start;
+    }
+    .preço h2{
+        font-family: 'Fraunces';
+        font-size: 1.7rem;
+        color: hsl(158, 36%, 37%);
+        padding-left: 0;
+    }
+    .preço p{
+        font-family: 'Fraunces';
+        font-size: 0.8rem;
+        font-weight: bold;
+        color:hsl(228, 12%, 48%);
+        padding-left: 0.2rem;
+    }
+}
+@media (max-width:754px){
+    .all h4{
+        font-family: 'Montserrat';
+        color:hsl(228, 12%, 48%);
+        font-size: 0.8rem;
+        margin-right: 5rem;
+        line-height: 1.5;
+        padding-bottom: 0.5rem;
+    }
+    .all h1{
+        line-height: 1;
+        padding-bottom: 1rem;
+        color: hsl(212, 21%, 14%);
+        font-size: 2.2rem;
+        margin-right: 3rem;
+    }
+    .all button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: hsl(158, 36%, 37%);
+        padding: 0.6rem;
+        color: white;
+        border:none ;
+        width: 80%;
+        border-radius: 0.6rem;
+        font-size: 1rem;
+    }
+}
